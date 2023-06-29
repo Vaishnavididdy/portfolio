@@ -1,0 +1,48 @@
+.home{
+  transition: transform 0.3s ease;
+}
+
+.home:hover {
+  transform: scale(1.2);
+}
+.about{
+  transition: transform 0.3s ease;
+}
+
+.about:hover {
+  transform: scale(1.2);
+}
+.project{
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.2);
+}
+.contact{
+  transition: transform 0.3s ease;
+}
+
+.contact:hover {
+  transform: scale(1.2);
+}
+.foot{
+background-color: black;
+  
+}
+
+a{
+  text-decoration: none;
+  color:#ffff;
+  transition: transform 0.3s, text-decoration 0.3s;
+}
+a:hover{
+  color: #F1D4E5;
+  cursor: pointer;
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+.image{
+  width:280px;
+  height:320px;
+}
