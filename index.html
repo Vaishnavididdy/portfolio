@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header id="site-header">
+    <div class="container header-inner">
+      <span class="logo">Portfolio</span>
+      <nav class="desktop-nav">
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle menu">
+        <span class="ham-icon" id="ham-icon">&#9776;</span>
+      </button>
+    </div>
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="section border-b">
+    <div class="container hero-inner">
+      <h1 class="heading-1">I build booking systems that prevent double bookings and save business time</h1>
+      <p class="text-body-lg text-muted">✔ Built real working systems (not just UI demos)</p>
+      <p class="text-body-lg text-muted">Helping small businesses manage appointments with simple and reliable web apps.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM AWARENESS -->
+  <section id="problem" class="section surface-muted border-b">
+    <div class="container">
+      <div class="max-w-2xl">
+        <h2 class="heading-2">Is your business losing time to manual work?</h2>
+        <p class="text-body-base text-muted">
+          Struggling with manual booking and double appointments?
+          <span class="text-foreground font-medium"> I build systems that automate scheduling and save your time</span>
+          — so you can focus on running your business, not managing a spreadsheet.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section surface-muted border-b">
+    <div class="container">
+      <h2 class="heading-2">Projects</h2>
+      <div class="grid-2">
+
+        <div class="card">
+          <span class="badge">✔ Fully functional with backend (not just UI)</span>
+          <h3 class="heading-3">Appointment Scheduler</h3>
+          <p class="benefit">Prevents double bookings and manages appointments efficiently</p>
+          <p class="text-body-sm text-muted">A complete booking system with time slot management, conflict prevention, and admin control.</p>
+          <p class="proof"><i>Built a full booking system with backend storage and admin control.</i></p>
+          <ul class="features-list">
+            <li>Prevents double booking</li>
+            <li>Secure admin access</li>
+            <li>Real-time availability</li>
+          </ul>
+          <div class="card-buttons">
+  <a href="https://bookslot-ten.vercel.app/" target="_blank" class="btn-primary btn-sm">&#x2197; Live Demo</a>
+  <a href="https://github.com/Vaishnavididdy/bookslot" target="_blank" class="btn-secondary btn-sm"><i class="fab fa-github"></i> GitHub</a>
+</div>
+        </div>
+
+        <div class="card">
+          <span class="badge">✔ Fully functional with backend (not just UI)</span>
+          <h3 class="heading-3">Visiting Places</h3>
+          <p class="benefit">Helps users discover and explore places with smart search</p>
+          <p class="text-body-sm text-muted">A data-driven travel listing app with search, filters, and location-based results.</p>
+          <p class="proof"><i>Developed a data-driven app using external APIs with search functionality.</i></p>
+          <ul class="features-list">
+            <li>API-based data</li>
+            <li>Search/filter functionality</li>
+            <li>Responsive UI</li>
+          </ul>
+          <div class="card-buttons">
+  <a href="https://visiting-places.vercel.app/" target="_blank" class="btn-primary btn-sm">&#x2197; Live Demo</a>
+  <a href="https://github.com/Vaishnavididdy/Visiting_Places" target="_blank" class="btn-secondary btn-sm"><i class="fab fa-github"></i> GitHub</a>
+</div>
+        </div>
+
+      </div>
+
+      <!-- CTA BLOCK -->
+      <div class="cta-block card">
+        <h3 class="heading-3">Need a booking system or web app? <span class="text-accent">Let's build it.</span></h3>
+        <a href="#contact" class="btn-primary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE ME -->
+  <section id="why" class="section border-b">
+    <div class="container">
+      <h2 class="heading-2">Why Choose Me</h2>
+      <div class="grid-3">
+        <div class="card">
+          <span class="check-icon">&#10003;</span>
+          <p class="text-body-base">Focus on practical solutions, not just design</p>
+        </div>
+        <div class="card">
+          <span class="check-icon">&#10003;</span>
+          <p class="text-body-base">Clean and simple user-friendly applications</p>
+        </div>
+        <div class="card">
+          <span class="check-icon">&#10003;</span>
+          <p class="text-body-base">End-to-end development (frontend + backend)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section border-b">
+    <div class="container">
+      <h2 class="heading-2">Services</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3 class="service-title">Appointment Booking Systems</h3>
+          <p class="text-body-sm text-muted">For salons, clinics, and small businesses</p>
+        </div>
+        <div class="card">
+          <h3 class="service-title">Custom Web Applications</h3>
+          <p class="text-body-sm text-muted">Tailored to your business needs</p>
+        </div>
+        <div class="card">
+          <h3 class="service-title">REST API Development</h3>
+          <p class="text-body-sm text-muted">Backend logic using Python/Flask</p>
+        </div>
+        <div class="card">
+          <h3 class="service-title">React Frontend Development</h3>
+          <p class="text-body-sm text-muted">Fast, clean, and mobile-friendly interfaces</p>
+        </div>
+      </div>
+      <p class="price-anchor text-body-sm">Starting from ₹3,000 for basic systems</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section surface-muted border-b">
+    <div class="container">
+      <h2 class="heading-2">About</h2>
+      <p class="text-body-lg max-w-2xl">I am a developer focused on building practical web applications that solve real problems. I work with React for frontend and Python for backend to create simple and efficient solutions.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section border-b">
+    <div class="container">
+      <h2 class="heading-2">Contact</h2>
+      <p class="text-body-base text-accent font-medium contact-avail">Available for freelance work</p>
+      <div class="contact-cards">
+
+        <div class="contact-card">
+          <span class="contact-icon">&#9993;</span>
+          <div class="contact-info">
+            <span class="contact-label">EMAIL</span>
+            <a href="mailto:yshnavi7115@gmail.com" class="contact-value">yshnavi7115@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <span class="contact-icon">&#128241;</span>
+          <div class="contact-info">
+            <span class="contact-label">WHATSAPP</span>
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="contact-value">+91 9391910439</a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <span class="contact-icon">&#128279;</span>
+          <div class="contact-info">
+            <span class="contact-label">GITHUB</span>
+            <a href="https://github.com/Vaishnavididdy" target="_blank" class="contact-value"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+
+      </div>
+      <p class="text-body-sm text-muted contact-note">📲 Prefer a quick response? Message me on WhatsApp. — fastest response for clients.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <span class="text-body-sm text-muted">&copy; 2026</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
